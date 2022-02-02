@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 export default function ProjectDetail({ project }) {
   return (
@@ -15,7 +15,7 @@ export default function ProjectDetail({ project }) {
             <p>Signed: {project.contractSignedOn}</p>
             <p>
               <mark className="active">
-                {project.isActive ? 'active' : 'inactive'}
+                {project.isActive ? "active" : "inactive"}
               </mark>
             </p>
           </section>
